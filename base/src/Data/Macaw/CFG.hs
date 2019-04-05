@@ -7,11 +7,13 @@ This exports the main CFG modules
 module Data.Macaw.CFG
   ( module Data.Macaw.CFG.Core
   , module Data.Macaw.CFG.App
+  , module Data.Macaw.CFG.AssignRhs
   , module Data.Macaw.Memory
   , Data.Macaw.Types.FloatInfoRepr(..)
   ) where
 
 import           Data.Macaw.CFG.App
+import           Data.Macaw.CFG.AssignRhs ( memReprBytes )
 import           Data.Macaw.CFG.Core
-import qualified Data.Macaw.Types
 import           Data.Macaw.Memory
+import qualified Data.Macaw.Types
